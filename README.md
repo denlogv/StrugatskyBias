@@ -1,2 +1,2 @@
 # StrugatskyBias
-Project for course "Bias" at Heidelberg University
+Project for "Bias"-class at Heidelberg University
