@@ -17,51 +17,53 @@ All the works that are mentioned in this README are appropriately cited in "Logv
 
 Here is the outline of the **Jupyter-Notebook**:
 
-0. Some standard definitions:
-   0.1 Imports
-   0.2 Standard paths
-   0.3 Auxiliary functions
-    
-1. Obtaining and preprocessing corpus:
-   1.1 Functions for getting and processing the books
-   1.2 Getting and creating first versions of the corpus
-    
-2. Lemmatization:
-   2.1 Using Yandex mystem to lemmatize the corpus
-   2.2 Extracting necessary info from json-files
-   2.3 Showing words with count = N
-     
-3. Training and evaluating vectors:
-   3.0 Some preprocessing on datasets:
-       3.0.1 Extracting info from mystem json to get tagged datasets
-       3.0.2 Convert already tagged datasets to UPOS
-   3.1 Function to evaluate models
-   3.2 FastText:
-       3.2.1 Function to train fasttext
-       3.2.2 Parameters for training and evaluation of fasttext models
-       3.2.3 Evaluation
-   3.3 GloVe - trained with the Stanford-Tool:
-       3.3.1 Script to run GloVe-Tool
-       3.3.2 Convert GloVe-Vectors to Word2Vec-format
-       3.3.3 Evaluation
-      
-4. Measuring Bias:
-   4.0 Finding most common names in corpus
-   4.1 Creating word lists (based on Garg et al. (2018)):
-       4.1.1 Check if a word is in the given model
-       4.1.2 Translating the Lists from Garg's Paper
-       4.1.3 Deleting duplicates from the translations
-       4.1.4 Preparing word lists to be used with one of the best models from RusVectores
-       4.1.5 Check for OOV-words in the tagged datasets
-   4.2 Measuring bias using word lists:
-       4.2.1 Parameters for measuring
-       4.2.2 Auxiliary functions
-       4.2.3 Function to compute bias and create a table with the results
-       4.2.4 Bias-Tests on Strugatsky-Modell with different definitions for gender-vectors
-       4.2.5 Bias-Test with the fastText-Model
-       4.2.6 Bias-Test with the Taiga-Model
-   4.3 Correlation Heatmaps for the Tests:
-       4.3.1 Functions to create Heatmaps and save them as vector graphics
-       4.3.2 Measuring correlation for the tests with the Strugatsky-Model
-       4.3.3 Measuring correlation between 3 models for the Russian language
+<ol>
+<li>0. Some standard definitions:</li>
+<li>   0.1 Imports</li>
+<li>   0.2 Standard paths</li>
+<li>   0.3 Auxiliary functions</li>
+<li>    </li>
+<li>1. Obtaining and preprocessing corpus:</li>
+<li>   1.1 Functions for getting and processing the books</li>
+<li>   1.2 Getting and creating first versions of the corpus</li>
+<li>    </li>
+<li>2. Lemmatization:</li>
+<li>   2.1 Using Yandex mystem to lemmatize the corpus</li>
+<li>   2.2 Extracting necessary info from json-files</li>
+<li>   2.3 Showing words with count = N</li>
+<li>     </li>
+<li>3. Training and evaluating vectors:</li>
+<li>   3.0 Some preprocessing on datasets:</li>
+<li>       3.0.1 Extracting info from mystem json to get tagged datasets</li>
+<li>       3.0.2 Convert already tagged datasets to UPOS</li>
+<li>   3.1 Function to evaluate models</li>
+<li>   3.2 FastText:</li>
+<li>       3.2.1 Function to train fasttext</li>
+<li>       3.2.2 Parameters for training and evaluation of fasttext models</li>
+<li>       3.2.3 Evaluation</li>
+<li>   3.3 GloVe - trained with the Stanford-Tool:</li>
+<li>       3.3.1 Script to run GloVe-Tool</li>
+<li>       3.3.2 Convert GloVe-Vectors to Word2Vec-format</li>
+<li>       3.3.3 Evaluation</li>
+<li>      </li>
+<li>4. Measuring Bias:</li>
+<li>   4.0 Finding most common names in corpus</li>
+<li>   4.1 Creating word lists (based on Garg et al. (2018)):</li>
+<li>       4.1.1 Check if a word is in the given model</li>
+<li>       4.1.2 Translating the Lists from Garg's Paper</li>
+<li>       4.1.3 Deleting duplicates from the translations</li>
+<li>       4.1.4 Preparing word lists to be used with one of the best models from RusVectores</li>
+<li>       4.1.5 Check for OOV-words in the tagged datasets</li>
+<li>   4.2 Measuring bias using word lists:</li>
+<li>       4.2.1 Parameters for measuring</li>
+<li>       4.2.2 Auxiliary functions</li>
+<li>       4.2.3 Function to compute bias and create a table with the results</li>
+<li>       4.2.4 Bias-Tests on Strugatsky-Modell with different definitions for gender-vectors</li>
+<li>       4.2.5 Bias-Test with the fastText-Model</li>
+<li>       4.2.6 Bias-Test with the Taiga-Model</li>
+<li>   4.3 Correlation Heatmaps for the Tests:</li>
+<li>       4.3.1 Functions to create Heatmaps and save them as vector graphics</li>
+<li>       4.3.2 Measuring correlation for the tests with the Strugatsky-Model</li>
+<li>       4.3.3 Measuring correlation between 3 models for the Russian language</li>
+</ol>
       
