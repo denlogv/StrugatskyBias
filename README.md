@@ -15,7 +15,7 @@ Here you can most of the files that were created in the project:
 All the works that are mentioned in this README are appropriately cited in "Logvinenko - Implementierungsprojekt.pdf" (the text is in German).
 
 
-Here is the outline of the *Jupyter-Notebook*:
+Here is the outline of the **Jupyter-Notebook**:
 
 0. Some standard definitions:
    0.1 Imports
