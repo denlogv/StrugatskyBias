@@ -18,32 +18,32 @@ All the works that are mentioned in this README are appropriately cited in "Logv
 Here is the outline of the *Jupyter-Notebook*:
 
   0. Some standard definitions:
-     -0.1 Imports
-     -0.2 Standard paths
-     -0.3 Auxiliary functions
+     - 0.1 Imports
+     - 0.2 Standard paths
+     - 0.3 Auxiliary functions
     
   1. Obtaining and preprocessing corpus:
-     -1.1 Functions for getting and processing the books
-     -1.2 Getting and creating first versions of the corpus
+     - 1.1 Functions for getting and processing the books
+     - 1.2 Getting and creating first versions of the corpus
     
   2. Lemmatization:
-     -2.1 Using Yandex mystem to lemmatize the corpus
-     -2.2 Extracting necessary info from json-files
-     -2.3 Showing words with count = N
-    
+     - 2.1 Using Yandex mystem to lemmatize the corpus
+     - 2.2 Extracting necessary info from json-files
+     - 2.3 Showing words with count = N
+     
   3. Training and evaluating vectors:
-     -3.0 Some preprocessing on datasets:
-          -3.0.1 Extracting info from mystem json to get tagged datasets
-          -3.0.2 Convert already tagged datasets to UPOS
+     - 3.0 Some preprocessing on datasets:
+          - 3.0.1 Extracting info from mystem json to get tagged datasets
+          - 3.0.2 Convert already tagged datasets to UPOS
      -3.1 Function to evaluate models
      -3.2 FastText:
-          -3.2.1 Function to train fasttext
-          -3.2.2 Parameters for training and evaluation of fasttext models
-          -3.2.3 Evaluation
+          - 3.2.1 Function to train fasttext
+          - 3.2.2 Parameters for training and evaluation of fasttext models
+          - 3.2.3 Evaluation
      -3.3 GloVe - trained with the Stanford-Tool:
-          -3.3.1 Script to run GloVe-Tool
-          -3.3.2 Convert GloVe-Vectors to Word2Vec-format
-          -3.3.3 Evaluation
+          - 3.3.1 Script to run GloVe-Tool
+          - 3.3.2 Convert GloVe-Vectors to Word2Vec-format
+          - 3.3.3 Evaluation
       
   4. Measuring Bias:
      -4.0 Finding most common names in corpus
