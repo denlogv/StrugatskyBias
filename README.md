@@ -1,4 +1,4 @@
-# StrugatskyBias
+## StrugatskyBias
 
 #### Identifying and measuring Gender-Bias in the works of the famous russian Science- and Social-Fiction writers: Arkadiy and Boris Strugatsky.
 
@@ -7,10 +7,11 @@
 
 Here you can most of the files that were created in the project:
 
-  1) The folder **"Evaluation Data"**
+1. The folder **"Evaluation Data"**
 
-  2) The folder **"Word Lists"** contains the word lists (original and translated to Russian) from Garg et al. You can also find all the results of the bias-tests (with different models, such as the model trained on the Taiga-Corpus or the fastText-Modell from Facebook) in the **"ru"** subfolder + the corresponding Excel-tables with words that either are more associated to men or to women in the works of Strugatsky as well in both of the other models.  
-  3) The folder **"Corpus"**, where different versions of the created corpus can be found (original, lemmatized (using Yandex MyStem), lemmatized with POS-Tags (converted from the MyStem standard to UPOS)).
+2. The folder **"Word Lists"** contains the word lists (original and translated to Russian) from *Garg et al (2018)*. You can also find all the results of the bias-tests (with different models, such as the model trained on the *Taiga-Corpus* or the *fastText-Modell* from *Facebook*) in the **"ru"** subfolder + the corresponding Excel-tables with words that either are more associated to men or to women in the works of Strugatsky as well in both of the other models.  
+
+3. The folder **"Corpus"**, where different versions of the created corpus can be found (original, lemmatized (using *Yandex MyStem*), lemmatized with POS-Tags (converted from the *MyStem* standard to UPOS)).
 
 All the works that are mentioned in this README are appropriately cited in **"Logvinenko - Implementierungsprojekt.pdf"** (the text is in German).
 
@@ -49,15 +50,15 @@ Here is the outline of the **Jupyter-Notebook**:
 		- 4.1.3 Deleting duplicates from the translations
 		- 4.1.4 Preparing word lists to be used with one of the best models from RusVectores
 		- 4.1.5 Check for OOV-words in the tagged datasets
-		- 4.2 Measuring bias using word lists:
-			- 4.2.1 Parameters for measuring
-			- 4.2.2 Auxiliary functions
-			- 4.2.3 Function to compute bias and create a table with the results
-			- 4.2.4 Bias-Tests on Strugatsky-Modell with different definitions for gender-vectors
-			- 4.2.5 Bias-Test with the fastText-Model
-			- 4.2.6 Bias-Test with the Taiga-Model
-		- 4.3 Correlation Heatmaps for the Tests:
-			- 4.3.1 Functions to create Heatmaps and save them as vector graphics
-			- 4.3.2 Measuring correlation for the tests with the Strugatsky-Model
-			- 4.3.3 Measuring correlation between 3 models for the Russian language
+	- 4.2 Measuring bias using word lists:
+		- 4.2.1 Parameters for measuring
+		- 4.2.2 Auxiliary functions
+		- 4.2.3 Function to compute bias and create a table with the results
+		- 4.2.4 Bias-Tests on Strugatsky-Modell with different definitions for gender-vectors
+		- 4.2.5 Bias-Test with the fastText-Model
+		- 4.2.6 Bias-Test with the Taiga-Model
+	- 4.3 Correlation Heatmaps for the Tests:
+		- 4.3.1 Functions to create Heatmaps and save them as vector graphics
+		- 4.3.2 Measuring correlation for the tests with the Strugatsky-Model
+		- 4.3.3 Measuring correlation between 3 models for the Russian language
       
