@@ -1,6 +1,6 @@
 ## StrugatskyBias
 
-#### Identifying and measuring Gender-Bias in the works of the famous russian Science- and Social-Fiction writers: Arkadiy and Boris Strugatsky.
+#### Identifying and measuring Gender-Bias in the works of the famous russian Science- and Social-Fiction writers: Arkady and Boris Strugatsky.
 
 #### Project for the "Bias" class (WS 19/20) at Heidelberg University. Professor: Katja Markert. 
 
